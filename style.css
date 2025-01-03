@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: linear-gradient(135deg, #9ea1a1 30%, #4CAF50 100%);
+    color: #000000; 
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.2); 
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+    backdrop-filter: blur(10px); 
+
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#weatherDisplay {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.tourist-spot {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.back-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw; 
+    height: 100vh; 
+    object-fit: cover; 
+    z-index: -1;
+}
